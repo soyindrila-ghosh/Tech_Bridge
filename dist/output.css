@@ -2328,10 +2328,6 @@ html {
   }
 }
 
-.rounded-box {
-  border-radius: var(--rounded-box, 1rem);
-}
-
 .sr-only {
   position: absolute;
   width: 1px;
@@ -2441,6 +2437,10 @@ html {
   max-width: 1280px;
 }
 
+.max-w-xl {
+  max-width: 36rem;
+}
+
 .grow {
   flex-grow: 1;
 }
@@ -2532,6 +2532,10 @@ html {
   border-radius: 0.5rem;
 }
 
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
 .border {
   border-width: 1px;
 }
@@ -2554,19 +2558,14 @@ html {
   border-color: rgb(255 251 235 / var(--tw-border-opacity));
 }
 
-.border-base-300 {
+.border-black {
   --tw-border-opacity: 1;
-  border-color: hsl(var(--b3, var(--b2)) / var(--tw-border-opacity));
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
 .border-gray-200 {
   --tw-border-opacity: 1;
   border-color: rgb(229 231 235 / var(--tw-border-opacity));
-}
-
-.border-black {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
 .bg-\[\#5C8AF0\] {
@@ -2604,6 +2603,10 @@ html {
 
 .p-4 {
   padding: 1rem;
+}
+
+.p-8 {
+  padding: 2rem;
 }
 
 .px-12 {
@@ -2725,6 +2728,10 @@ html {
   letter-spacing: 0.025em;
 }
 
+.tracking-widest {
+  letter-spacing: 0.1em;
+}
+
 .text-\[\#333B42\] {
   --tw-text-opacity: 1;
   color: rgb(51 59 66 / var(--tw-text-opacity));
@@ -2790,6 +2797,13 @@ body{
 
 .sansarif-box p{
   font-family: sans-serif;
+}
+
+.business-box{
+  background-image: url("../assets/bg (1).png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 40vh;
 }
 
 .hover\:bg-blue-800:hover {

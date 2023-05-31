@@ -23,3 +23,9 @@ body{
 .sansarif-box p{
     font-family: sans-serif;
 }
+.business-box{
+    background-image: url("../assets/bg (1).png");
+    background-repeat: no-repeat;
+     background-position: center;
+    height: 40vh;
+}
