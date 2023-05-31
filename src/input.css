@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Clash Display', sans-serif;
+}
+.header-nav{
+    background-image: url(../assets/Colleagues.png);
+   
+}
+.sky-box{
+    background: rgba(37, 99, 235, 0.5);
+    border-radius: 30px;
+}
+.right-pera-box p{
+    color: #51595F;
+}
+.sansarif-box p{
+    font-family: sans-serif;
+}

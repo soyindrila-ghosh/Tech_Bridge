@@ -1,0 +1,42 @@
+npm init -y && npm install -D tailwindcss && npx tailwindcss init && rm "tailwind.config.js" && cat >> tailwind.config.js << 'END'
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+
+END
+mkdir favicon && mkdir src && cd src && cat >> input.css << 'END'
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+END
+cat >> index.html << 'END'
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+
+ <link href="/dist/output.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon"  href="favicon">
+</head>
+<body>
+</body>
+</html>
+
+END
+cd .. && mkdir assets && sed -i 's/"scripts": {/"scripts": {\n    "build": "npx tailwindcss -i .\/src\/input.css -o .\/dist\/output.css --watch",/' package.json
+npm run build
