@@ -29,3 +29,7 @@ body{
      background-position: center;
     height: 40vh;
 }
+.right-arrow-box i{
+      color:#5C8AF0;
+      font-size: 40px;
+}
