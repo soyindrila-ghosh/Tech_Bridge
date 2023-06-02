@@ -2377,6 +2377,10 @@ html {
   margin-top: 5%;
 }
 
+.mt-\[3\%\] {
+  margin-top: 3%;
+}
+
 .block {
   display: block;
 }
@@ -2593,6 +2597,16 @@ html {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-amber-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 230 138 / var(--tw-bg-opacity));
+}
+
+.bg-fuchsia-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(232 121 249 / var(--tw-bg-opacity));
+}
+
 .p-10 {
   padding: 2.5rem;
 }
@@ -2770,6 +2784,11 @@ html {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\#292F35\] {
+  --tw-text-opacity: 1;
+  color: rgb(41 47 53 / var(--tw-text-opacity));
 }
 
 *{
