@@ -2552,6 +2552,10 @@ html {
   margin-top: 6%;
 }
 
+.mt-28 {
+  margin-top: 7rem;
+}
+
 .block {
   display: block;
 }
@@ -3505,6 +3509,10 @@ body{
 
   .lg\:w-\[80\%\] {
     width: 80%;
+  }
+
+  .lg\:w-\[90\%\] {
+    width: 90%;
   }
 
   .lg\:max-w-5xl {
