@@ -2869,6 +2869,10 @@ html {
   background-color: rgb(253 230 138 / var(--tw-bg-opacity));
 }
 
+.bg-\[\] {
+  background-color: ;
+}
+
 .fill-current {
   fill: currentColor;
 }
@@ -3015,6 +3019,10 @@ html {
 
 .pt-7 {
   padding-top: 1.75rem;
+}
+
+.pb-7 {
+  padding-bottom: 1.75rem;
 }
 
 .text-left {
@@ -3521,6 +3529,10 @@ body{
 
   .lg\:max-w-5xl {
     max-width: 64rem;
+  }
+
+  .lg\:max-w-6xl {
+    max-width: 72rem;
   }
 
   .lg\:grid-cols-3 {
