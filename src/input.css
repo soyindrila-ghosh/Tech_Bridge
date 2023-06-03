@@ -33,3 +33,9 @@ body{
       color:#5C8AF0;
       font-size: 40px;
 }
+.play-button-box{
+    background-image:url("../assets/Rectangle 64.png");
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position:center;
+}

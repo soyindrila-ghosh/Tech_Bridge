@@ -2827,11 +2827,6 @@ html {
   background-color: hsl(var(--b1) / var(--tw-bg-opacity));
 }
 
-.bg-gray-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
-}
-
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -2915,6 +2910,11 @@ html {
   padding-bottom: 0.5rem;
 }
 
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .py-24 {
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -2938,11 +2938,6 @@ html {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
 }
 
 .pb-12 {
@@ -2971,6 +2966,18 @@ html {
 
 .pt-\[5\%\] {
   padding-top: 5%;
+}
+
+.pt-\[15\%\] {
+  padding-top: 15%;
+}
+
+.pt-\[25\%\] {
+  padding-top: 25%;
+}
+
+.pt-\[20\%\] {
+  padding-top: 20%;
 }
 
 .text-left {
@@ -3027,10 +3034,6 @@ html {
   text-transform: uppercase;
 }
 
-.capitalize {
-  text-transform: capitalize;
-}
-
 .tracking-tight {
   letter-spacing: -0.025em;
 }
@@ -3076,11 +3079,6 @@ html {
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
-}
-
-.text-gray-700 {
-  --tw-text-opacity: 1;
-  color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
 .text-gray-900 {
@@ -3135,6 +3133,13 @@ body{
 .right-arrow-box i{
   color:#5C8AF0;
   font-size: 40px;
+}
+
+.play-button-box{
+  background-image:url("../assets/Rectangle 64.png");
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-position:center;
 }
 
 .hover\:bg-blue-800:hover {
@@ -3489,11 +3494,5 @@ body{
   .lg\:hover\:text-white:hover {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:text-center {
-    text-align: center;
   }
 }
