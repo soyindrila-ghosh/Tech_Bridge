@@ -2471,6 +2471,10 @@ html {
   margin-top: 5%;
 }
 
+.mt-\[10\%\] {
+  margin-top: 10%;
+}
+
 .block {
   display: block;
 }
@@ -2505,6 +2509,10 @@ html {
 
 .h-full {
   height: 100%;
+}
+
+.h-\[40vh\] {
+  height: 40vh;
 }
 
 .w-5 {
@@ -2646,6 +2654,12 @@ html {
   --tw-space-y-reverse: 0;
   margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+}
+
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 
 .self-center {
@@ -2923,6 +2937,11 @@ html {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .font-bold {
@@ -3270,6 +3289,10 @@ body{
 
   .lg\:h-\[90vh\] {
     height: 90vh;
+  }
+
+  .lg\:h-\[60vh\] {
+    height: 60vh;
   }
 
   .lg\:min-h-\[40vh\] {
