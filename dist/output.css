@@ -2391,12 +2391,6 @@ html {
   border-bottom-left-radius: inherit;
 }
 
-.mockup-phone .display {
-  overflow: hidden;
-  border-radius: 40px;
-  margin-top: -25px;
-}
-
 @keyframes progress-loading {
   50% {
     left: 107%;
@@ -2964,20 +2958,12 @@ html {
   padding-right: 1rem;
 }
 
-.pt-\[5\%\] {
-  padding-top: 5%;
-}
-
-.pt-\[15\%\] {
-  padding-top: 15%;
-}
-
-.pt-\[25\%\] {
-  padding-top: 25%;
-}
-
 .pt-\[20\%\] {
   padding-top: 20%;
+}
+
+.pt-\[5\%\] {
+  padding-top: 5%;
 }
 
 .text-left {
@@ -3140,6 +3126,55 @@ body{
   height: 90vh;
   background-repeat: no-repeat;
   background-position:center;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#comment{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="tel"],
+.form-group input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.form-group button {
+  display: block;
+  width: 35%;
+  padding: 10px;
+  background-color:#5c8af0;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.form-group button:hover {
+  background-color: #45a049;
 }
 
 .hover\:bg-blue-800:hover {
