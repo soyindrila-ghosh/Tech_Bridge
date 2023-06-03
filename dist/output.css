@@ -2548,6 +2548,10 @@ html {
   margin-top: 5%;
 }
 
+.mt-\[6\%\] {
+  margin-top: 6%;
+}
+
 .block {
   display: block;
 }
@@ -3052,6 +3056,11 @@ html {
   color: rgb(81 89 95 / var(--tw-text-opacity));
 }
 
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .text-blue-600 {
   --tw-text-opacity: 1;
   color: rgb(37 99 235 / var(--tw-text-opacity));
@@ -3080,6 +3089,12 @@ html {
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-xl {
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -3175,6 +3190,14 @@ body{
 
 .form-group button:hover {
   background-color: #45a049;
+}
+
+.search-container input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  outline: none;
 }
 
 .hover\:bg-blue-800:hover {
@@ -3468,6 +3491,12 @@ body{
     --tw-space-x-reverse: 0;
     margin-right: calc(7rem * var(--tw-space-x-reverse));
     margin-left: calc(7rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .lg\:space-x-44 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(11rem * var(--tw-space-x-reverse));
+    margin-left: calc(11rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .lg\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
