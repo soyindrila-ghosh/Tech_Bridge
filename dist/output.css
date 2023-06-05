@@ -2552,6 +2552,10 @@ html {
   margin-top: 6%;
 }
 
+.mt-\[-15\%\] {
+  margin-top: -15%;
+}
+
 .block {
   display: block;
 }
@@ -2684,6 +2688,10 @@ html {
   align-items: center;
 }
 
+.justify-start {
+  justify-content: flex-start;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -2747,6 +2755,12 @@ html {
   --tw-space-y-reverse: 0;
   margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+}
+
+.space-x-20 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(5rem * var(--tw-space-x-reverse));
+  margin-left: calc(5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .self-center {
@@ -2988,6 +3002,10 @@ html {
 
 .pt-\[5\%\] {
   padding-top: 5%;
+}
+
+.pt-\[-15\%\] {
+  padding-top: -15%;
 }
 
 .text-left {
@@ -3464,6 +3482,22 @@ body{
 
   .lg\:mt-\[-12\%\] {
     margin-top: -12%;
+  }
+
+  .lg\:mt-\[-20\%\] {
+    margin-top: -20%;
+  }
+
+  .lg\:mt-\[-15\%\] {
+    margin-top: -15%;
+  }
+
+  .lg\:ml-\[-20\%\] {
+    margin-left: -20%;
+  }
+
+  .lg\:ml-\[-10\%\] {
+    margin-left: -10%;
   }
 
   .lg\:flex {
