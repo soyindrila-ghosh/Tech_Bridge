@@ -3500,6 +3500,14 @@ body{
     margin-left: -10%;
   }
 
+  .lg\:mt-\[-4\%\] {
+    margin-top: -4%;
+  }
+
+  .lg\:mt-\[-5\%\] {
+    margin-top: -5%;
+  }
+
   .lg\:flex {
     display: flex;
   }
@@ -3538,6 +3546,10 @@ body{
 
   .lg\:w-\[80\%\] {
     width: 80%;
+  }
+
+  .lg\:w-\[30\%\] {
+    width: 30%;
   }
 
   .lg\:max-w-5xl {
@@ -3615,6 +3627,14 @@ body{
 
   .lg\:pt-0 {
     padding-top: 0px;
+  }
+
+  .lg\:pl-10 {
+    padding-left: 2.5rem;
+  }
+
+  .lg\:pl-20 {
+    padding-left: 5rem;
   }
 
   .lg\:text-left {
